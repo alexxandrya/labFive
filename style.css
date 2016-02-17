@@ -1,0 +1,73 @@
+body
+{
+    text-align: center;
+}
+
+div#main, div#color, div#style
+{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#main
+{
+    border: 3px;
+    border-style: ridge;
+    border-color: black;
+}
+
+div#color
+{
+    border: 4px;
+    border-style: solid;
+    border-color: gray;
+}
+
+div#style
+{
+    border: 2px;
+    border-style: groove;
+    border-color: lightgray;
+}
+
+div#info{
+    font-size: 12pt;
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    top: 1%;
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+    border: 2px;
+    border-style: dotted;
+    border-color: darkslategrey;
+    color: black;
+    background-color: white;
+}
+
+.color1{
+    background-color: black;
+}
+
+.color2{
+    background-color: purple;
+}
+
+.coloredBlue{
+    color: blue;
+}
+
+.coloredGreen{
+    color: green;
+}
+
+.styleBold{
+    font-weight: bold;
+}
+
+.styleItalic{
+    font-style: italic;
+}
